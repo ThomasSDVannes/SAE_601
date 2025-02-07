@@ -16,7 +16,7 @@ import seaborn as sns
 import streamlit as st
 import plotly.express as px
 
-df_data = pd.read_csv('H:/SAE 601/ds_salaries.csv', sep=',', na_values='?')
+df_data = pd.read_csv('ds_salaries.csv', sep=',', na_values='?')
 
 ### 2. Exploration visuelle des données
 # Afficher un titre avec Streamlit
